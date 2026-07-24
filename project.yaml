@@ -1,0 +1,71 @@
+# .project metadata for KUDO
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "kudo"
+name: "KUDO"
+description: "Kubernetes Universal Declarative Operator"
+type: "project"
+project_lead: "alenkacz" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#kudo"
+    primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2020-06-25T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/283" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/kudobuilder/kudo"
+
+website: "https://kudo.dev/"
+
+artwork: "https://landscape.cncf.io/logos/kudo.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/kudobuilder/kudo/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "kudobuilder/kudo"
+
+social:
+  twitter: "https://twitter.com/kudobuilder"
+
+security:
+  policy:
+    path: "https://github.com/kudobuilder/kudo/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/kudobuilder/kudo/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/kudobuilder/kudo/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/kudobuilder/kudo/blob/main/code-of-conduct.md"
+
+legal:
+  license:
+    path: "https://github.com/kudobuilder/kudo/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/kudobuilder/kudo/blob/main/README.md"
+
+landscape:
+  category: "App Definition and Development"
+  subcategory: "Application Definition & Image Build"
+
+# CLOMonitor Score: 58/100
+# Documentation: 80 | License: 75 | Best Practices: 26 | Security: 55
