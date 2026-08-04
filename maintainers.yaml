@@ -10,7 +10,6 @@ maintainers:
       - name: "project-maintainers"
         members:
           - alenkacz
-          - gerred
           - runyontr
           - zen-dog
           - zmalik
