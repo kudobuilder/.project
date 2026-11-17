@@ -24,7 +24,7 @@ repositories:
 
 website: "https://kudo.dev/"
 
-artwork: "https://landscape.cncf.io/logos/kudo.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/kudo"
 
 # TODO: Add ADOPTERS.md if your project tracks adopters
 # adopters:
